@@ -22,7 +22,7 @@ In addition to domain/topic resources I will need to evaluate existing ontologie
    We are all highly likely to use properties from SKOS.
 - Schema.org - [http://schema.org/docs/full.html]
    I have a need to represent the action of attending a hearing. This vocabulary could provide me with those structures. It also has structures for government offices (as organizations) and government buildings (as places). Below is an example of how I might use the Schema.org structures for the domain of Bail.
-> <http://example.com/HearingAttendance> a owl:Class ;
+> <http://example.com/HearingAttendance> a owl:Class ;   
 >	rdfs:subClassOf schema:ArriveAction .
 
 The idea is to describe the class “Hearing Attendance” as a sub-class of the schema.org:ArriveAction. ArriveAction would give me access to time and place properties. I could also use the property subjectOf with a range of an Event class. This would just be one of the classes I would look at describing.  Bail is complex and differs from one municipality to the next. It is my hope that the Classes and Properties I work with are general enough for our needs and could be used, and altered, for the needs of others.
