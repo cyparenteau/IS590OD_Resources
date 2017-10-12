@@ -1,5 +1,5 @@
-# Bail
 ## Assignment 3: Natural Language Domain Description
+# Bail
 #
 ###### Christina Parenteau
 ###### IS590OD - FA2017
